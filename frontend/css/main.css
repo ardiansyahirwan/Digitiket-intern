@@ -1,0 +1,167 @@
+body {
+  font-family: 'Lato', sans-serif;
+  font-size: 14px;
+}
+
+.section-header nav {
+  border-bottom: 1px solid #eeeeee;
+}
+
+.section-header nav .container {
+  width: 90%;
+}
+
+.section-header #navbar-utama {
+  padding: 20px 20px;
+}
+
+.section-header #navbar-utama .form-inline {
+  width: 460px;
+}
+
+.section-header #navbar-utama .form-inline input {
+  border: 1px solid #E0E0E0;
+  border-radius: 3px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  -webkit-box-shadow: 0px 1px 4px 1px rgba(0, 0, 0, 0.1);
+          box-shadow: 0px 1px 4px 1px rgba(0, 0, 0, 0.1);
+  font-size: 14px;
+  width: 100%;
+  padding: 20px 20px;
+}
+
+.section-header #navbar-second {
+  position: relative;
+  -webkit-box-shadow: 0px 1px 4px 2px rgba(0, 0, 0, 0.15);
+          box-shadow: 0px 1px 4px 2px rgba(0, 0, 0, 0.15);
+}
+
+.section-header #navbar-second .navbar-nav .nav-item {
+  padding: 7px 7px;
+}
+
+.section-header #navbar-second .navbar-nav a {
+  font-weight: 700;
+  color: #413F3F;
+  font-size: 15px;
+}
+
+.section-header #navbar-second .navbar-nav .badge-purple {
+  background-color: #7014A9;
+  color: #fff;
+  margin-left: 5px;
+}
+
+.section-header #navbar-second .navbar-nav img {
+  width: 20px;
+  height: 20px;
+  margin-right: 6px;
+}
+
+.section-header #navbar-second .navbar-nav .dropdown .nav-link {
+  color: #F05A86;
+}
+
+.section-header img {
+  width: 182px;
+  height: 39px;
+}
+
+.section-header .btn-login {
+  color: #CD7BFF;
+  font-weight: 700;
+  font-size: 16px;
+  background-color: rgba(112, 20, 169, 0.15);
+}
+
+.section-header .btn-buat-tiket {
+  background-color: #7014A9;
+  color: #fff;
+  font-weight: 700;
+  font-size: 16px;
+  border-radius: 0;
+  position: absolute;
+  left: 78%;
+  right: 0;
+  top: 0;
+  bottom: 0;
+}
+
+.section-gallery-info {
+  padding-top: 90px;
+  margin-top: -50px;
+}
+
+.section-gallery-info .gallery-base {
+  border: 1px solid #F2F2F2;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  border-radius: 3px;
+}
+
+.section-gallery-info .table-jadwal,
+.section-gallery-info .table-informasi {
+  border-left: 1px solid #EEEEEE;
+  margin-bottom: 0;
+}
+
+.section-gallery-info .table-jadwal th,
+.section-gallery-info .table-jadwal td,
+.section-gallery-info .table-informasi th,
+.section-gallery-info .table-informasi td {
+  padding: 5px 10px 5px 28px;
+  color: #000000;
+  font-size: 13px;
+  font-weight: normal;
+}
+
+.section-gallery-info .table-jadwal h6,
+.section-gallery-info .table-informasi h6 {
+  font-size: 16px;
+  font-weight: bold;
+  padding: 10px 0px 10px 0px;
+}
+
+.section-gallery-info .table-jadwal .active,
+.section-gallery-info .table-informasi .active {
+  background-color: #EADCF2;
+}
+
+.section-gallery-info .table-jadwal .badge-purple,
+.section-gallery-info .table-jadwal .badge-purple-2,
+.section-gallery-info .table-informasi .badge-purple,
+.section-gallery-info .table-informasi .badge-purple-2 {
+  background-color: #7014A9;
+  color: #fff;
+  font-size: 11px;
+  border-radius: 3px;
+}
+
+.section-gallery-info .table-jadwal .badge-purple-2,
+.section-gallery-info .table-informasi .badge-purple-2 {
+  background: #EA24BE;
+}
+
+.section-gallery-info .table-informasi {
+  margin-bottom: 30px;
+}
+
+@media (max-width: 400px) {
+  .section-header #navbar-utama .form-inline {
+    display: none;
+  }
+  .section-header #navbar-second {
+    border: none;
+  }
+  .section-header #navbar-second .collapse ul li {
+    border-left: none;
+  }
+  .section-header .btn-login {
+    width: 100%;
+  }
+  .section-header .btn-buat-tiket {
+    position: static;
+  }
+}
+/*# sourceMappingURL=main.css.map */

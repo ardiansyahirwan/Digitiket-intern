@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Total Tiket</title>
+   <!-- Font Google Lato -->
+   <link
+      href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap"
+      rel="stylesheet">
+
+   <!-- Bootstrap CSS -->
+   <link rel="stylesheet" href="frontend/library/bootstrap/css/bootstrap.min.css">
+
+   <!-- Main CSS -->
+   <link rel="stylesheet" href="frontend/css/main.css">
+</head>
+
+<body>
+   <section class="section-header">
+
+      <!-- Navbar Utama -->
+      <nav id="navbar-utama" class="navbar navbar-expand-lg navbar-light bg-transparent">
+         <div class="container">
+            <a class="navbar-brand" href="">
+               <img src="frontend/images/Icon/logome.png" alt="">
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+               aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+               <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <form class="form-inline" id="search">
+               <input class="form-control-lg mr-sm-2" type="search"
+                  placeholder="Temukan Event, Wahana Wisata, Virtual Tour, Lain-lain" aria-label="Search">
+            </form>
+
+            <button class="btn btn-login py-2 px-4 mr-5 d-none d-md-block">Login</button>
+         </div>
+      </nav>
+      <!-- Akhir -->
+
+      <!-- Navbar Second -->
+      <nav id="navbar-second" class="navbar navbar-expand-lg navbar-light bg-transparent py-0">
+         <div class="container justify-content-between">
+            <div class="collapse navbar-collapse" id="navbarNav">
+               <ul class="navbar-nav">
+                  <li class="nav-item active px-4 border-left">
+                     <a href="#" class="nav-link">
+                        <img src="frontend/images/Icon/ic_attraction.svg" alt="">
+                        Attraction
+                     </a>
+                  </li>
+                  <li class="nav-item active px-4 border-left ">
+                     <a href="#" class="nav-link">
+                        <img src="frontend/images/Icon/ic_event.svg" alt="">
+                        Event
+                     </a>
+                  </li>
+                  <li class="nav-item active px-4 border-left">
+                     <a href="#" class="nav-link">
+                        <img src="frontend/images/Icon/ic_virtual_tour.svg" alt="">
+                        Virtual Tour <span class="badge badge-purple">New</span>
+                     </a>
+                  </li>
+                  <li class="nav-item dropdown px-4 border-left">
+                     <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        <img src="frontend/images/Icon/ic_kota.svg" alt="">
+                        Semarang
+                     </a>
+                     <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="#">Action</a>
+                     </div>
+                  </li>
+
+                  <button class="btn btn-login py-2 px-5 d-md-none d-sm-block">Login</button>
+                  <button class="btn btn-buat-tiket py-3 px-5 d-sm-block">Buat Tiket</button>
+               </ul>
+            </div>
+         </div>
+      </nav>
+      <!-- Akhir -->
+   </section>
+
+   <section class="section-gallery-info">
+      <div class="container">
+         <div class="row gallery-base">
+            <div class="col-md-8">
+
+            </div>
+            <div class="col-md-4 pr-0">
+               <table class="table table-striped table-jadwal">
+                  <thead>
+                     <tr>
+                        <th scope="col" colspan="3">
+                           <h6>Jam Buka</h6>
+                        </th>
+                     </tr>
+                  </thead>
+                  <tbody>
+                     <tr class="active">
+                        <th scope="row">Sunday</th>
+                        <td>10.00 - 17.00</td>
+                        <td>
+                           <span class="badge badge-purple py-1 px-2">Today</span>
+                        </td>
+                     </tr>
+                     <tr>
+                        <th scope="row">Monday</th>
+                        <td>10.00 - 17.00</td>
+                        <td></td>
+                     </tr>
+                     <tr>
+                        <th scope="row">Tuesday</th>
+                        <td>10.00 - 17.00</td>
+                        <td></td>
+                     </tr>
+                     <tr>
+                        <th scope="row">Wednesday</th>
+                        <td>10.00 - 17.00</td>
+                        <td></td>
+                     </tr>
+                     <tr>
+                        <th scope="row">Thursday</th>
+                        <td>10.00 - 17.00</td>
+                        <td></td>
+                     </tr>
+                     <tr>
+                        <th scope="row">Friday</th>
+                        <td>10.00 - 17.00</td>
+                        <td></td>
+                     </tr>
+                     <tr>
+                        <th scope="row">Saturday</th>
+                        <td>10.00 - 17.00</td>
+                        <td></td>
+                     </tr>
+                  </tbody>
+               </table>
+
+               <table class="table table-informasi">
+                  <thead>
+                     <tr>
+                        <th scope="col" colspan="3">
+                           <h6>Informasi Pengguna</h6>
+                        </th>
+                     </tr>
+                  </thead>
+                  <tbody>
+                     <tr>
+                        <th scope="row">Masa Aktif</th>
+                        <td>1 Hari</td>
+                        <td></td>
+                     </tr>
+                     <tr>
+                        <th scope="row">Harga</th>
+                        <td>IDR 50.000</td>
+                        <td><span class="badge badge-purple py-1 px-2">allday</span></td>
+                     </tr>
+                     <tr>
+                        <th scope="row">Harga</th>
+                        <td>IDR 50.000</td>
+                        <td><span class="badge badge-purple-2 py-1 px-2">weekend</span></td>
+                     </tr>
+                  </tbody>
+               </table>
+            </div>
+         </div>
+      </div>
+   </section>
+
+
+
+
+   <script src="frontend/library/jquery/jquery.min.js"></script>
+   <script src="frontend/library/bootstrap/js/bootstrap.min.js"></script>
+</body>
+
+</html>
