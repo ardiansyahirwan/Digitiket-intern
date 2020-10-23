@@ -164,40 +164,79 @@ body {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   border-radius: 3px;
-}
-
-.section-info-tiket .card-wisata .section-wisata,
-.section-info-tiket .card-wisata .section-about {
   padding: 19px 48px 16px 37px;
 }
 
 .section-info-tiket .card-wisata .section-wisata .header-wisata,
 .section-info-tiket .card-wisata .section-wisata .header-about,
+.section-info-tiket .card-wisata .section-wisata .header-tiket,
 .section-info-tiket .card-wisata .section-about .header-wisata,
-.section-info-tiket .card-wisata .section-about .header-about {
+.section-info-tiket .card-wisata .section-about .header-about,
+.section-info-tiket .card-wisata .section-about .header-tiket,
+.section-info-tiket .card-wisata .section-tiket-wisata .header-wisata,
+.section-info-tiket .card-wisata .section-tiket-wisata .header-about,
+.section-info-tiket .card-wisata .section-tiket-wisata .header-tiket {
   font-weight: bold;
   font-size: 30px;
   color: #000;
 }
 
 .section-info-tiket .card-wisata .section-wisata .konten-wisata p,
-.section-info-tiket .card-wisata .section-about .konten-wisata p {
+.section-info-tiket .card-wisata .section-wisata .konten-about p,
+.section-info-tiket .card-wisata .section-wisata .konten-tiket p,
+.section-info-tiket .card-wisata .section-about .konten-wisata p,
+.section-info-tiket .card-wisata .section-about .konten-about p,
+.section-info-tiket .card-wisata .section-about .konten-tiket p,
+.section-info-tiket .card-wisata .section-tiket-wisata .konten-wisata p,
+.section-info-tiket .card-wisata .section-tiket-wisata .konten-about p,
+.section-info-tiket .card-wisata .section-tiket-wisata .konten-tiket p {
   line-height: 191.5%;
   letter-spacing: 0.04em;
   color: #505050;
 }
 
+.section-info-tiket .card-wisata .section-wisata .konten-wisata p span,
+.section-info-tiket .card-wisata .section-wisata .konten-about p span,
+.section-info-tiket .card-wisata .section-wisata .konten-tiket p span,
+.section-info-tiket .card-wisata .section-about .konten-wisata p span,
+.section-info-tiket .card-wisata .section-about .konten-about p span,
+.section-info-tiket .card-wisata .section-about .konten-tiket p span,
+.section-info-tiket .card-wisata .section-tiket-wisata .konten-wisata p span,
+.section-info-tiket .card-wisata .section-tiket-wisata .konten-about p span,
+.section-info-tiket .card-wisata .section-tiket-wisata .konten-tiket p span {
+  font-weight: 750;
+}
+
 .section-info-tiket .card-wisata .section-wisata .konten-wisata .social-media p,
-.section-info-tiket .card-wisata .section-about .konten-wisata .social-media p {
+.section-info-tiket .card-wisata .section-wisata .konten-about .social-media p,
+.section-info-tiket .card-wisata .section-wisata .konten-tiket .social-media p,
+.section-info-tiket .card-wisata .section-about .konten-wisata .social-media p,
+.section-info-tiket .card-wisata .section-about .konten-about .social-media p,
+.section-info-tiket .card-wisata .section-about .konten-tiket .social-media p,
+.section-info-tiket .card-wisata .section-tiket-wisata .konten-wisata .social-media p,
+.section-info-tiket .card-wisata .section-tiket-wisata .konten-about .social-media p,
+.section-info-tiket .card-wisata .section-tiket-wisata .konten-tiket .social-media p {
   display: inline-block;
   margin-right: 30px;
 }
 
 .section-info-tiket .card-wisata .section-wisata .konten-wisata .social-media img,
-.section-info-tiket .card-wisata .section-about .konten-wisata .social-media img {
+.section-info-tiket .card-wisata .section-wisata .konten-about .social-media img,
+.section-info-tiket .card-wisata .section-wisata .konten-tiket .social-media img,
+.section-info-tiket .card-wisata .section-about .konten-wisata .social-media img,
+.section-info-tiket .card-wisata .section-about .konten-about .social-media img,
+.section-info-tiket .card-wisata .section-about .konten-tiket .social-media img,
+.section-info-tiket .card-wisata .section-tiket-wisata .konten-wisata .social-media img,
+.section-info-tiket .card-wisata .section-tiket-wisata .konten-about .social-media img,
+.section-info-tiket .card-wisata .section-tiket-wisata .konten-tiket .social-media img {
   width: 23px;
   height: 23px;
   margin-right: 13px;
+}
+
+.section-info-tiket .card-wisata .section-tiket-wisata,
+.section-info-tiket .card-wisata .section-about {
+  padding-bottom: 18px;
 }
 
 @media (max-width: 400px) {

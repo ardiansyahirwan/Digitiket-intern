@@ -171,23 +171,31 @@ body {
       border: 1px solid #EEEEEE;
       box-sizing: border-box;
       border-radius: 3px;
+      padding: 19px 48px 16px 37px;
 
       .section-wisata,
-      .section-about {
-         padding: 19px 48px 16px 37px;
+      .section-about,
+      .section-tiket-wisata {
 
          .header-wisata,
-         .header-about {
+         .header-about,
+         .header-tiket {
             font-weight: bold;
             font-size: 30px;
             color: #000;
          }
 
-         .konten-wisata {
+         .konten-wisata,
+         .konten-about,
+         .konten-tiket {
             p {
                line-height: 191.5%;
                letter-spacing: 0.04em;
                color: #505050;
+
+               span {
+                  font-weight: 750;
+               }
             }
 
             .social-media {
@@ -203,6 +211,11 @@ body {
                }
             }
          }
+      }
+
+      .section-tiket-wisata,
+      .section-about {
+         padding-bottom: 18px;
       }
    }
 
