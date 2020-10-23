@@ -149,8 +149,12 @@ body {
 
    }
 
-   .table-informasi {
-      margin-bottom: 30px;
+   .section-alert {
+      .alert-ungu {
+         background-color: #CD7BFF;
+         color: #000;
+         padding: 15px 15px 15px 15px;
+      }
    }
 }
 
