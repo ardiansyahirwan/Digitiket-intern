@@ -163,6 +163,52 @@ body {
    }
 }
 
+.section-info-tiket {
+   padding-top: 67px;
+   margin-top: -50px;
+
+   .card-wisata {
+      border: 1px solid #EEEEEE;
+      box-sizing: border-box;
+      border-radius: 3px;
+
+      .section-wisata,
+      .section-about {
+         padding: 19px 48px 16px 37px;
+
+         .header-wisata,
+         .header-about {
+            font-weight: bold;
+            font-size: 30px;
+            color: #000;
+         }
+
+         .konten-wisata {
+            p {
+               line-height: 191.5%;
+               letter-spacing: 0.04em;
+               color: #505050;
+            }
+
+            .social-media {
+               p {
+                  display: inline-block;
+                  margin-right: 30px;
+               }
+
+               img {
+                  width: 23px;
+                  height: 23px;
+                  margin-right: 13px;
+               }
+            }
+         }
+      }
+   }
+
+}
+
+
 
 
 
