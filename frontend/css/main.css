@@ -170,12 +170,19 @@ body {
 .section-info-tiket .card-wisata .section-wisata .header-wisata,
 .section-info-tiket .card-wisata .section-wisata .header-about,
 .section-info-tiket .card-wisata .section-wisata .header-tiket,
+.section-info-tiket .card-wisata .section-wisata .header-peta,
 .section-info-tiket .card-wisata .section-about .header-wisata,
 .section-info-tiket .card-wisata .section-about .header-about,
 .section-info-tiket .card-wisata .section-about .header-tiket,
+.section-info-tiket .card-wisata .section-about .header-peta,
 .section-info-tiket .card-wisata .section-tiket-wisata .header-wisata,
 .section-info-tiket .card-wisata .section-tiket-wisata .header-about,
-.section-info-tiket .card-wisata .section-tiket-wisata .header-tiket {
+.section-info-tiket .card-wisata .section-tiket-wisata .header-tiket,
+.section-info-tiket .card-wisata .section-tiket-wisata .header-peta,
+.section-info-tiket .card-wisata .section-peta .header-wisata,
+.section-info-tiket .card-wisata .section-peta .header-about,
+.section-info-tiket .card-wisata .section-peta .header-tiket,
+.section-info-tiket .card-wisata .section-peta .header-peta {
   font-weight: bold;
   font-size: 30px;
   color: #000;
@@ -189,7 +196,10 @@ body {
 .section-info-tiket .card-wisata .section-about .konten-tiket p,
 .section-info-tiket .card-wisata .section-tiket-wisata .konten-wisata p,
 .section-info-tiket .card-wisata .section-tiket-wisata .konten-about p,
-.section-info-tiket .card-wisata .section-tiket-wisata .konten-tiket p {
+.section-info-tiket .card-wisata .section-tiket-wisata .konten-tiket p,
+.section-info-tiket .card-wisata .section-peta .konten-wisata p,
+.section-info-tiket .card-wisata .section-peta .konten-about p,
+.section-info-tiket .card-wisata .section-peta .konten-tiket p {
   line-height: 191.5%;
   letter-spacing: 0.04em;
   color: #505050;
@@ -203,8 +213,26 @@ body {
 .section-info-tiket .card-wisata .section-about .konten-tiket p span,
 .section-info-tiket .card-wisata .section-tiket-wisata .konten-wisata p span,
 .section-info-tiket .card-wisata .section-tiket-wisata .konten-about p span,
-.section-info-tiket .card-wisata .section-tiket-wisata .konten-tiket p span {
+.section-info-tiket .card-wisata .section-tiket-wisata .konten-tiket p span,
+.section-info-tiket .card-wisata .section-peta .konten-wisata p span,
+.section-info-tiket .card-wisata .section-peta .konten-about p span,
+.section-info-tiket .card-wisata .section-peta .konten-tiket p span {
   font-weight: 750;
+}
+
+.section-info-tiket .card-wisata .section-wisata .konten-wisata .konten-peta,
+.section-info-tiket .card-wisata .section-wisata .konten-about .konten-peta,
+.section-info-tiket .card-wisata .section-wisata .konten-tiket .konten-peta,
+.section-info-tiket .card-wisata .section-about .konten-wisata .konten-peta,
+.section-info-tiket .card-wisata .section-about .konten-about .konten-peta,
+.section-info-tiket .card-wisata .section-about .konten-tiket .konten-peta,
+.section-info-tiket .card-wisata .section-tiket-wisata .konten-wisata .konten-peta,
+.section-info-tiket .card-wisata .section-tiket-wisata .konten-about .konten-peta,
+.section-info-tiket .card-wisata .section-tiket-wisata .konten-tiket .konten-peta,
+.section-info-tiket .card-wisata .section-peta .konten-wisata .konten-peta,
+.section-info-tiket .card-wisata .section-peta .konten-about .konten-peta,
+.section-info-tiket .card-wisata .section-peta .konten-tiket .konten-peta {
+  padding-bottom: 12px;
 }
 
 .section-info-tiket .card-wisata .section-wisata .konten-wisata .social-media p,
@@ -215,7 +243,10 @@ body {
 .section-info-tiket .card-wisata .section-about .konten-tiket .social-media p,
 .section-info-tiket .card-wisata .section-tiket-wisata .konten-wisata .social-media p,
 .section-info-tiket .card-wisata .section-tiket-wisata .konten-about .social-media p,
-.section-info-tiket .card-wisata .section-tiket-wisata .konten-tiket .social-media p {
+.section-info-tiket .card-wisata .section-tiket-wisata .konten-tiket .social-media p,
+.section-info-tiket .card-wisata .section-peta .konten-wisata .social-media p,
+.section-info-tiket .card-wisata .section-peta .konten-about .social-media p,
+.section-info-tiket .card-wisata .section-peta .konten-tiket .social-media p {
   display: inline-block;
   margin-right: 30px;
 }
@@ -228,7 +259,10 @@ body {
 .section-info-tiket .card-wisata .section-about .konten-tiket .social-media img,
 .section-info-tiket .card-wisata .section-tiket-wisata .konten-wisata .social-media img,
 .section-info-tiket .card-wisata .section-tiket-wisata .konten-about .social-media img,
-.section-info-tiket .card-wisata .section-tiket-wisata .konten-tiket .social-media img {
+.section-info-tiket .card-wisata .section-tiket-wisata .konten-tiket .social-media img,
+.section-info-tiket .card-wisata .section-peta .konten-wisata .social-media img,
+.section-info-tiket .card-wisata .section-peta .konten-about .social-media img,
+.section-info-tiket .card-wisata .section-peta .konten-tiket .social-media img {
   width: 23px;
   height: 23px;
   margin-right: 13px;
@@ -237,6 +271,21 @@ body {
 .section-info-tiket .card-wisata .section-tiket-wisata,
 .section-info-tiket .card-wisata .section-about {
   padding-bottom: 18px;
+}
+
+.section-info-tiket .card-pilih-tiket {
+  background: #F6F6F6;
+  border: 1px solid #F4F4F4;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  border-radius: 3px;
+  padding: 24px 27px 37px 27px;
+}
+
+.section-info-tiket .card-pilih-tiket .header-pilih-tiket {
+  font-weight: bold;
+  font-size: 23px;
+  color: #000;
 }
 
 @media (max-width: 400px) {

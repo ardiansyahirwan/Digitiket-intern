@@ -175,11 +175,13 @@ body {
 
       .section-wisata,
       .section-about,
-      .section-tiket-wisata {
+      .section-tiket-wisata,
+      .section-peta {
 
          .header-wisata,
          .header-about,
-         .header-tiket {
+         .header-tiket,
+         .header-peta {
             font-weight: bold;
             font-size: 30px;
             color: #000;
@@ -196,6 +198,10 @@ body {
                span {
                   font-weight: 750;
                }
+            }
+
+            .konten-peta {
+               padding-bottom: 12px;
             }
 
             .social-media {
@@ -216,6 +222,20 @@ body {
       .section-tiket-wisata,
       .section-about {
          padding-bottom: 18px;
+      }
+   }
+
+   .card-pilih-tiket {
+      background: #F6F6F6;
+      border: 1px solid #F4F4F4;
+      box-sizing: border-box;
+      border-radius: 3px;
+      padding: 24px 27px 37px 27px;
+
+      .header-pilih-tiket {
+         font-weight: bold;
+         font-size: 23px;
+         color: #000;
       }
    }
 
