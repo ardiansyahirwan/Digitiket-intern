@@ -220,21 +220,6 @@ body {
   font-weight: 750;
 }
 
-.section-info-tiket .card-wisata .section-wisata .konten-wisata .konten-peta,
-.section-info-tiket .card-wisata .section-wisata .konten-about .konten-peta,
-.section-info-tiket .card-wisata .section-wisata .konten-tiket .konten-peta,
-.section-info-tiket .card-wisata .section-about .konten-wisata .konten-peta,
-.section-info-tiket .card-wisata .section-about .konten-about .konten-peta,
-.section-info-tiket .card-wisata .section-about .konten-tiket .konten-peta,
-.section-info-tiket .card-wisata .section-tiket-wisata .konten-wisata .konten-peta,
-.section-info-tiket .card-wisata .section-tiket-wisata .konten-about .konten-peta,
-.section-info-tiket .card-wisata .section-tiket-wisata .konten-tiket .konten-peta,
-.section-info-tiket .card-wisata .section-peta .konten-wisata .konten-peta,
-.section-info-tiket .card-wisata .section-peta .konten-about .konten-peta,
-.section-info-tiket .card-wisata .section-peta .konten-tiket .konten-peta {
-  padding-bottom: 12px;
-}
-
 .section-info-tiket .card-wisata .section-wisata .konten-wisata .social-media p,
 .section-info-tiket .card-wisata .section-wisata .konten-about .social-media p,
 .section-info-tiket .card-wisata .section-wisata .konten-tiket .social-media p,
@@ -286,6 +271,58 @@ body {
   font-weight: bold;
   font-size: 23px;
   color: #000;
+}
+
+.section-info-tiket .card-pilih-tiket .nav-pills {
+  padding-top: 14px;
+}
+
+.section-info-tiket .card-pilih-tiket .nav-pills .nav-item {
+  width: 50%;
+}
+
+.section-info-tiket .card-pilih-tiket .nav-pills .nav-item a.nav-link {
+  font-weight: bold;
+  font-size: 18px;
+  color: #CD7BFF;
+  background-color: #EADCF2;
+  border-radius: 0;
+  text-align: center;
+}
+
+.section-info-tiket .card-pilih-tiket .nav-pills .nav-item a.nav-link.active {
+  background-color: #fff;
+}
+
+.section-info-tiket .card-pilih-tiket .card-tiket {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  border-radius: 3px;
+  border: 1px solid #F2F2F2;
+  margin-bottom: 16px;
+}
+
+.section-info-tiket .card-pilih-tiket .card-tiket .card-header {
+  font-size: 18px;
+  color: #000;
+  background-color: #fff;
+  border-bottom: 1px solid #EEEEEE;
+  font-weight: 400;
+}
+
+.section-info-tiket .card-pilih-tiket .card-tiket .card-body .card-text {
+  display: inline-block;
+  font-size: 14px;
+}
+
+.section-info-tiket .card-pilih-tiket .card-tiket a {
+  color: #CD7BFF;
+  font-size: 14px;
+}
+
+.section-info-tiket .card-pilih-tiket .card-tiket .card-footer {
+  border-top: 1px solid #EEEEEE;
+  background-color: #fff;
 }
 
 @media (max-width: 400px) {
