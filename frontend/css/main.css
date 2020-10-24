@@ -284,14 +284,14 @@ body {
 .section-info-tiket .card-pilih-tiket .nav-pills .nav-item a.nav-link {
   font-weight: bold;
   font-size: 18px;
+  background-color: #fff;
   color: #CD7BFF;
-  background-color: #EADCF2;
   border-radius: 0;
   text-align: center;
 }
 
 .section-info-tiket .card-pilih-tiket .nav-pills .nav-item a.nav-link.active {
-  background-color: #fff;
+  background-color: #EADCF2;
 }
 
 .section-info-tiket .card-pilih-tiket .card-tiket {
