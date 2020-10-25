@@ -201,6 +201,8 @@
    <section class="section-info-tiket">
       <div class="container">
          <div class="row">
+
+            <!-- Bagian sebelah Kiri -->
             <div class="col-md-6 card-wisata">
                <div class="section-wisata">
                   <h2 class="header-wisata">
@@ -261,7 +263,9 @@
                   </div>
                </div>
             </div>
+            <!-- Akhir -->
 
+            <!-- Bagian Sebelah Kanan -->
             <div class="col-md-6">
                <div class="card card-pilih-tiket">
                   <h6 class="header-pilih-tiket">
@@ -282,50 +286,99 @@
                    <div class="tab-content" id="pills-tabContent">
                      <div class="tab-pane fade show active" id="pills-tiket" role="tabpanel" aria-labelledby="pills-tiket-tab">
                         <!-- Card Tiket Dewasa -->
-                        <div class="card card-tiket">
-                           <div class="card-header">
-                             Tiket Dewasa
-                           </div>
-                           <div class="card-body">
-                             <p class="card-text mr-3">09 Sep 2020, 06:00-20:30 WIB</p>
-                             <p class="card-text">09 Sep 2020, 06:00-20:30 WIB</p><br>
-                             <a href="" class="link">Detail Package</a>
-                           </div>
-                           <div class="card-footer text-right">
-                             IDR 40.000
-                           </div>
-                         </div>
-
-                         <!-- Tiket Anak -->
-                        <div class="card card-tiket">
-                           <div class="card-header">
-                              Tiket Anak-Anak (3 - 7 Tahun)
-                           </div>
-                           <div class="card-body">
-                             <p class="card-text mr-3">09 Sep 2020, 06:00-20:30 WIB</p>
-                             <p class="card-text">09 Sep 2020, 06:00-20:30 WIB</p><br>
-                             <a href="" class="link">Detail Package</a>
-                           </div>
-                           <div class="card-footer text-right">
-                             IDR 40.000
-                           </div>
-                         </div>
-
-                        <!-- Tiket Bayi -->
-                        <div class="card card-tiket">
-                           <div class="card-header">
-                              Tiket Bayi (0 - 2 Tahun)
-                           </div>
-                           <div class="card-body">
-                             <p class="card-text mr-3">09 Sep 2020, 06:00-20:30 WIB</p>
-                             <p class="card-text">09 Sep 2020, 06:00-20:30 WIB</p><br>
-                             <a href="" class="link">Detail Package</a>
-                           </div>
-                           <div class="card-footer text-right">
-                             IDR 40.000
-                           </div>
-                         </div>
+                        <form action="#" method="POST">
+                           <div class="card card-tiket">
+                              <div class="card-header">
+                                Tiket Dewasa
+                              </div>
+                              <div class="card-body">
+                                <p class="card-text mr-3">09 Sep 2020, 06:00-20:30 WIB</p>
+                                <p class="card-text">09 Sep 2020, 06:00-20:30 WIB</p><br>
+                                <a href="" class="link">Detail Package</a>
+                              </div>
+                              <div class="card-footer">
+                                 <div class="input-idr">
+                                    <input class="form-control" type="text" value="IDR 40.000">
+                                 </div>
+                                 <div class="input-group input-jumlah">
+                                    <div class="input-group-prepend">
+                                      <button class="btn btn-jumlah-1" type="button"><i class="fas fa-plus"></i></button>
+                                    </div>
+                                    <input type="text" class="form-control quota" value="2" aria-label="" aria-describedby="basic-addon1">
+                                    <div class="input-group-prepend">
+                                       <button class="btn btn-jumlah-2" type="button"><i class="fas fa-minus"></i></button>
+                                     </div>
+                                  </div>
+                              </div>
+                            </div>
+   
+                            <!-- Tiket Anak -->
+                           <div class="card card-tiket">
+                              <div class="card-header">
+                                 Tiket Anak-Anak (3 - 7 Tahun)
+                              </div>
+                              <div class="card-body">
+                                <p class="card-text mr-3">09 Sep 2020, 06:00-20:30 WIB</p>
+                                <p class="card-text">09 Sep 2020, 06:00-20:30 WIB</p><br>
+                                <a href="" class="link">Detail Package</a>
+                              </div>
+                              <div class="card-footer">
+                                 <div class="input-idr">
+                                    <input class="form-control" type="text" value="IDR 30.000">
+                                 </div>
+                                 <div class="input-group input-jumlah">
+                                    <div class="input-group-prepend">
+                                      <button class="btn btn-jumlah-1" type="button"><i class="fas fa-plus"></i></button>
+                                    </div>
+                                    <input type="text" class="form-control quota" value="2" aria-label="" aria-describedby="basic-addon1">
+                                    <div class="input-group-prepend">
+                                       <button class="btn btn-jumlah-2" type="button"><i class="fas fa-minus"></i></button>
+                                     </div>
+                                  </div>
+                              </div>
+                            </div>
+   
+                           <!-- Tiket Bayi -->
+                           <div class="card card-tiket">
+                              <div class="card-header">
+                                 Tiket Bayi (0 - 2 Tahun)
+                              </div>
+                              <div class="card-body">
+                                <p class="card-text mr-3">09 Sep 2020, 06:00-20:30 WIB</p>
+                                <p class="card-text">09 Sep 2020, 06:00-20:30 WIB</p><br>
+                                <a href="" class="link">Detail Package</a>
+                              </div>
+                              <div class="card-footer">
+                                 <div class="input-idr">
+                                    <input class="form-control" type="text" value="IDR 0.000">
+                                 </div>
+                                 <div class="input-group input-jumlah">
+                                    <div class="input-group-prepend">
+                                      <button class="btn btn-jumlah-1" type="button"><i class="fas fa-plus"></i></button>
+                                    </div>
+                                    <input type="text" class="form-control quota" value="0" aria-label="" aria-describedby="basic-addon1">
+                                    <div class="input-group-prepend">
+                                       <button class="btn btn-jumlah-2" type="button"><i class="fas fa-minus"></i></button>
+                                     </div>
+                                  </div>
+                              </div>
+                            </div>
+   
+                            <div class="checkout">
+                              <div class="input-group">
+                                 <div class="input-group-prepend">
+                                   <span class="input-group-text" id="">Total</span>
+                                 </div>
+                                 <input type="text" value="IDR 140.000" class="form-control">
+                               </div>
+   
+                               <div class="btn btn-checkout">Checkout</div>
+                            </div>
+                        </form>
+                        <!-- Akhir Form -->
                      </div>
+
+                     <!-- Konten untuk Pilih Tanggal -->
                      <div class="tab-pane fade" id="pills-tanggal" role="tabpanel" aria-labelledby="pills-tanggal-tab">coba 2</div>
                    </div>
                </div>

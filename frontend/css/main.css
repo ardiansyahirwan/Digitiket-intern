@@ -327,6 +327,92 @@ body {
 .section-info-tiket .card-pilih-tiket .card-tiket .card-footer {
   border-top: 1px solid #EEEEEE;
   background-color: #fff;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+
+.section-info-tiket .card-pilih-tiket .card-tiket .card-footer .input-idr {
+  width: 30%;
+}
+
+.section-info-tiket .card-pilih-tiket .card-tiket .card-footer .input-idr input {
+  border: 0;
+}
+
+.section-info-tiket .card-pilih-tiket .card-tiket .card-footer .input-idr input[value] {
+  color: #000;
+  font-weight: bold;
+}
+
+.section-info-tiket .card-pilih-tiket .card-tiket .card-footer .input-group.input-jumlah {
+  width: 30%;
+}
+
+.section-info-tiket .card-pilih-tiket .card-tiket .card-footer .input-group.input-jumlah input {
+  text-align: center;
+}
+
+.section-info-tiket .card-pilih-tiket .card-tiket .card-footer .input-group.input-jumlah .input-group-prepend .btn-jumlah-1,
+.section-info-tiket .card-pilih-tiket .card-tiket .card-footer .input-group.input-jumlah .input-group-prepend .btn-jumlah-2 {
+  border: 1px solid #EADCF2;
+  border-radius: 0px;
+}
+
+.section-info-tiket .card-pilih-tiket .card-tiket .card-footer .input-group.input-jumlah .input-group-prepend .btn-jumlah-1 i,
+.section-info-tiket .card-pilih-tiket .card-tiket .card-footer .input-group.input-jumlah .input-group-prepend .btn-jumlah-2 i {
+  color: #2e0746;
+}
+
+.section-info-tiket .checkout {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-top: 16px;
+}
+
+.section-info-tiket .checkout .input-group {
+  width: 50%;
+  margin-right: 22px;
+}
+
+.section-info-tiket .checkout .input-group .input-group-prepend span {
+  background-color: #E6E6E6;
+  color: #000;
+  font-weight: bold;
+}
+
+.section-info-tiket .checkout .input-group input {
+  background-color: #E6E6E6;
+  border-left: 0;
+  height: 42px;
+}
+
+.section-info-tiket .checkout .input-group input[value] {
+  color: #000;
+  text-align: end;
+  font-weight: bold;
+}
+
+.section-info-tiket .checkout .btn-checkout {
+  background-color: #7014A9;
+  color: #fff;
+  font-weight: bold;
+  padding: 8px 60px;
 }
 
 @media (max-width: 400px) {
