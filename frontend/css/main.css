@@ -415,6 +415,86 @@ body {
   padding: 8px 60px;
 }
 
+.section-footer {
+  margin-top: -100px;
+  padding-top: 207px;
+  padding-bottom: 29px;
+}
+
+.section-footer h5 {
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 24px;
+  margin-bottom: 18px;
+  color: #000;
+}
+
+.section-footer p {
+  line-height: 191.5%;
+}
+
+.section-footer input {
+  border: 1px solid #E0E0E0;
+  -webkit-box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.15);
+          box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.15);
+}
+
+.section-footer input[placeholder] {
+  color: #B4B4B4;
+  font-size: 14px;
+}
+
+.section-footer .google-play {
+  margin-top: 26px;
+}
+
+.section-footer .google-play img {
+  width: 167px;
+  height: 50px;
+}
+
+.section-footer ul li {
+  line-height: 191.5%;
+}
+
+.section-footer ul li a {
+  color: #000;
+}
+
+.section-footer .kolaborasi h5 {
+  margin-bottom: 0px;
+}
+
+.section-footer .kolaborasi img {
+  width: 224px;
+  height: 67px;
+}
+
+.section-footer .metode-pembayaran h5 {
+  margin-bottom: 0px;
+}
+
+.section-footer .metode-pembayaran img {
+  width: 245px;
+  height: 128px;
+}
+
+.section-footer-bottom {
+  height: 80px;
+}
+
+.section-footer-bottom .row {
+  margin: 0;
+}
+
+.section-footer-bottom .row p {
+  margin: 0;
+}
+
+.section-footer-bottom .social-media a img {
+  margin-right: 15px;
+}
+
 @media (max-width: 400px) {
   .section-header #navbar-utama .form-inline {
     display: none;
