@@ -25,73 +25,85 @@
 </head>
 
 <body>
-   <!-- Awal Header -->
-   <section class="section-header fixed-top">
-
-      <!-- Navbar Utama -->
-      <nav id="navbar-utama" class="navbar navbar-expand-lg navbar-light bg-transparent">
-         <div class="container">
-            <a class="navbar-brand" href="">
-               <img src="frontend/images/Icon/logome.png" alt="">
-            </a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
-               aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-               <span class="navbar-toggler-icon"></span>
-            </button>
-
-            <form class="form-inline" id="search">
-               <input class="form-control-lg mr-sm-2" type="search"
-                  placeholder="Temukan Event, Wahana Wisata, Virtual Tour, Lain-lain" aria-label="Search">
-            </form>
-
-            <button class="btn btn-login py-2 px-4 mr-5 d-none d-md-block">Login</button>
-         </div>
-      </nav>
-      <!-- Akhir -->
-
-      <!-- Navbar Second -->
-      <nav id="navbar-second" class="navbar navbar-expand-lg navbar-light bg-transparent py-0">
-         <div class="container justify-content-between">
-            <div class="collapse navbar-collapse" id="navbarNav">
-               <ul class="navbar-nav">
-                  <li class="nav-item active px-4 border-left">
-                     <a href="#" class="nav-link">
-                        <img src="frontend/images/Icon/ic_attraction.svg" alt="">
-                        Attraction
-                     </a>
-                  </li>
-                  <li class="nav-item active px-4 border-left ">
-                     <a href="#" class="nav-link">
-                        <img src="frontend/images/Icon/ic_event.svg" alt="">
-                        Event
-                     </a>
-                  </li>
-                  <li class="nav-item active px-4 border-left">
-                     <a href="#" class="nav-link">
-                        <img src="frontend/images/Icon/ic_virtual_tour.svg" alt="">
-                        Virtual Tour <span class="badge badge-purple">New</span>
-                     </a>
-                  </li>
-                  <li class="nav-item dropdown px-4 border-left">
-                     <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
-                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                        <img src="frontend/images/Icon/ic_kota.svg" alt="">
-                        Semarang
-                     </a>
-                     <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                        <a class="dropdown-item" href="#">Action</a>
-                     </div>
-                  </li>
-
-                  <button class="btn btn-login py-2 px-5 d-md-none d-sm-block">Login</button>
-                  <button class="btn btn-buat-tiket py-3 px-5 d-sm-block">Buat Tiket</button>
-               </ul>
+   <header id="header-web">
+      <!-- navbar -->
+      <nav class="navbar navbar-expand-lg navbar-light bg-white">
+        <div class="container">
+        <a class="navbar-brand" href="#">
+          <img src="frontend/images/Icon/logo-digitiket 1.png" alt="" class="brand-digitiket">
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+          aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <form id="form-search" method="#" class="col-lg-7 ml-lg-5 mr-lg-auto px-0 px-lg-2">
+            <div class="input-with-icon">
+              <img class="input-icon" src="{{asset('public/asset/img/icon-search.svg')}}" alt="">
+              <input name="keyword" load-key="" type="text" autocomplete="off"
+                placeholder="Temukan Event, Wahana Wisata , Virtual Tour, Lain-lain.">
+              <ul class="dropdown-menu">
+                <li class="result-template d-none">
+                  <a class="event-list-link" href="#">
+                    <div class="event-list">
+                      <div class="event-list-title">Event Title</div>
+                      <div class="event-list-address">Event Address</div>
+                    </div>
+                  </a>
+                </li>
+              </ul>
             </div>
-         </div>
+          </form>
+          <!-- <a href="#" class="btn btn-login"> <i class="fa fa-sign-in mr-2"></i> Login</a> -->
+          <a href="#" class="btn btn-user px-4"> <i class="fa fa-sign-in mr-2"></i>Hai Angelina</a>
+        </div>
+        </div>
       </nav>
-      <!-- Akhir -->
-   </section>
-   <!-- Akhir -->
+      <!-- akhir navbar -->
+      <!-- menu utama -->
+      <nav id="menu-utama" class="navbar navbar-expand-lg navbar-light bg-transparent">
+        <div class="container d-flex justify-content-between">
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav mr-auto">
+              <li class="nav-item">
+                <a class="nav-link" href="#">
+                  <img class="nav-icon" src="frontend/images/Icon/ic_attraction_2.png" alt="">Attraction
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">
+                  <img class="nav-icon" src="frontend/images/Icon/ic_event_2.png" alt="">Event
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">
+                  <img class="nav-icon" src="frontend/images/Icon/ic_tour.png" alt="Virtual Tour Indonesia">Tour
+                </a>
+              </li> 
+              <li class="nav-item vt">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button">
+                  <img class="nav-icon" src="frontend/images/Icon/ic_virtual_tour.svg" alt="Virtual Tour Indonesia">Virtual Tour
+                </a>
+              </li>
+            </ul>
+            <ul class="navbar-nav ml-auto">
+              <li class="nav-item">
+                <a href="#" class="nav-link btn-gmitra">
+                    <big><span class="ion-ios-color-filter-outline nav-link-icon"></span></big>
+                  Gabung Mitra
+                </a>
+              </li>
+              <!-- <li class="nav-item d-lg-none">
+                <a class="nav-link text-left bg-brand-2" href="/auth/login?fallback=%2F">
+                  <i class="nav-link-icon ion-log-in"></i>Login </a>
+              </li> -->
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <!-- akhir menu utama -->
+    </header>
+    <!-- akhir header -->
 
    <section class="section-gallery-info">
       <div class="container">

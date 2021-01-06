@@ -3,93 +3,144 @@ body {
   font-size: 14px;
 }
 
-.section-header {
-  background-color: #fff;
+#header-web {
+  /* position: relative; */
+  position: fixed;
+  background: #fff;
+  -webkit-box-shadow: 0 1px 4px 2px rgba(0, 0, 0, 0.15);
+          box-shadow: 0 1px 4px 2px rgba(0, 0, 0, 0.15);
+  border-top: 1px solid #eee;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 3;
+  padding-top: 10px;
 }
 
-.section-header nav {
-  border-bottom: 1px solid #eeeeee;
+#header-web .navbar-brand img {
+  height: 61.37px;
+  width: 200px;
 }
 
-.section-header nav .container {
-  width: 90%;
-}
-
-.section-header #navbar-utama {
-  padding: 20px 20px;
-}
-
-.section-header #navbar-utama .form-inline {
-  width: 460px;
-}
-
-.section-header #navbar-utama .form-inline input {
-  border: 1px solid #E0E0E0;
-  border-radius: 3px;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
-  -webkit-box-shadow: 0px 1px 4px 1px rgba(0, 0, 0, 0.1);
-          box-shadow: 0px 1px 4px 1px rgba(0, 0, 0, 0.1);
-  font-size: 14px;
+#form-search input {
   width: 100%;
-  padding: 20px 20px;
+  -webkit-box-shadow: 0 1px 4px 1px rgba(0, 0, 0, 0.1);
+          box-shadow: 0 1px 4px 1px rgba(0, 0, 0, 0.1);
+  border: solid 1px #eee;
+  border-radius: 3px;
+  padding: 13px 10px 13px 40px;
+  -webkit-transition: border-color .15s ease-in-out, -webkit-box-shadow .15s ease-in-out;
+  transition: border-color .15s ease-in-out, -webkit-box-shadow .15s ease-in-out;
+  transition: border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+  transition: border-color .15s ease-in-out, box-shadow .15s ease-in-out, -webkit-box-shadow .15s ease-in-out;
+  outline: none;
 }
 
-.section-header #navbar-second {
+#form-search input[type='text']:focus,
+#form-search .clickdform textarea:focus,
+#form-search .clickdform select:focus {
+  border: 2px solid #bc67f0 !important;
+  background: none !important;
+}
+
+#form-search .input-icon {
+  position: absolute;
+  left: 5px;
+  top: 0;
+  bottom: 0;
+  margin: auto 5px;
+  z-index: 5;
+}
+
+#form-search .input-with-icon {
   position: relative;
-  -webkit-box-shadow: 0px 1px 4px 2px rgba(0, 0, 0, 0.15);
-          box-shadow: 0px 1px 4px 2px rgba(0, 0, 0, 0.15);
+  margin-top: 15px;
 }
 
-.section-header #navbar-second .navbar-nav .nav-item {
-  padding: 7px 7px;
-}
-
-.section-header #navbar-second .navbar-nav a {
-  font-weight: 700;
-  color: #413F3F;
-  font-size: 15px;
-}
-
-.section-header #navbar-second .navbar-nav .badge-purple {
+.btn-user,
+.btn-login {
+  color: white;
   background-color: #7014A9;
-  color: #fff;
-  margin-left: 5px;
+  border-radius: 0;
+  padding-top: 14px;
+  padding-bottom: 14px;
 }
 
-.section-header #navbar-second .navbar-nav img {
-  width: 20px;
-  height: 20px;
-  margin-right: 6px;
+.btn-user:hover,
+.btn-login:hover {
+  color: white;
+  background-color: #3d055f;
 }
 
-.section-header #navbar-second .navbar-nav .dropdown .nav-link {
-  color: #F05A86;
+#menu-utama {
+  margin-top: 25px;
+  border-top: 1px solid #eee;
+  padding-top: 0;
+  padding-bottom: 0;
 }
 
-.section-header img {
-  width: 182px;
-  height: 39px;
+#menu-utama .nav-link {
+  border-left: 1px solid #eee;
+  padding: 13px 30px;
+  -webkit-transition: background-color .25s ease;
+  transition: background-color .25s ease;
 }
 
-.section-header .btn-login {
-  color: #CD7BFF;
-  font-weight: 700;
-  font-size: 16px;
+#menu-utama .nav-link:hover {
   background-color: rgba(112, 20, 169, 0.15);
 }
 
-.section-header .btn-buat-tiket {
+#menu-utama .nav-item.vt {
+  border-right: 1px solid #eee;
+}
+
+#menu-utama img.nav-icon {
+  height: 23.842500686645508px;
+  width: 23.999950408935547px;
+  left: 0px;
+  top: 0.07867431640625px;
+  border-radius: 0px;
+}
+
+#menu-utama .nav-icon {
+  margin-right: 10px;
+}
+
+#menu-utama .nav-link.btn-gmitra {
+  color: white;
   background-color: #7014A9;
+  border: 1px solid #7014A9;
+}
+
+#menu-utama .nav-link.btn-gmitra:hover {
+  color: white;
+  background-color: #3d055f;
+}
+
+.badge-primary {
   color: #fff;
-  font-weight: 700;
-  font-size: 16px;
-  border-radius: 0;
-  position: absolute;
-  left: 78%;
-  right: 0;
-  top: 0;
-  bottom: 0;
+  background-color: #7014A9;
+}
+
+img,
+svg {
+  vertical-align: middle;
+}
+
+img {
+  border-style: none;
+}
+
+.card {
+  padding: 32px;
+  margin: 0;
+  background: #FFFFFF;
+  border: 1px solid rgba(175, 175, 175, 0.5);
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  -webkit-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.08);
+          box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.08);
+  border-radius: 5px;
 }
 
 .section-gallery-info {
@@ -415,6 +466,97 @@ body {
   padding: 8px 60px;
 }
 
+#ubah-profil {
+  margin-top: 15%;
+  margin-bottom: 50vh;
+}
+
+#ubah-profil #side-menu .side-menu {
+  padding: 30px;
+}
+
+#ubah-profil #side-menu .profil-user img {
+  width: 64px;
+  height: 64px;
+  -webkit-filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+          filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+#ubah-profil #side-menu .profil-user h5 {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 22px;
+}
+
+#ubah-profil #side-menu .profil-user p {
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 17px;
+  color: #AFAFAF;
+}
+
+#ubah-profil #side-menu .profil-menu ul li {
+  padding-top: 20px;
+}
+
+#ubah-profil #side-menu .profil-menu a {
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 16px;
+  color: #595757;
+}
+
+#ubah-profil #side-menu .profil-menu img {
+  width: 24px;
+  height: 24px;
+  margin-right: 30px;
+  margin-left: 5px;
+}
+
+#ubah-profil #main-menu h5 {
+  font-weight: bold;
+  font-size: 16px;
+  color: #F05E86;
+}
+
+#ubah-profil #main-menu form img {
+  width: 160px;
+  height: 160px;
+  display: block;
+  margin: auto;
+  -webkit-filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+          filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+#ubah-profil #main-menu .btn-upload {
+  background: #4E2E8A;
+  border-radius: 5px;
+  color: #FFFFFF;
+  font-weight: 600;
+  font-size: 16px;
+}
+
+#ubah-profil #main-menu .btn-simpan {
+  background: #4E2E8A;
+  border-radius: 5px;
+  font-weight: 600;
+  font-size: 16px;
+  color: #fff;
+}
+
+#ubah-profil #main-menu .btn-batal {
+  background: #F05E86;
+  border-radius: 5px;
+  font-weight: 600;
+  font-size: 16px;
+  color: #fff;
+}
+
+#ubah-profil #main-menu .info-daftar {
+  font-size: 14px;
+  color: rgba(0, 0, 0, 0.5);
+}
+
 .section-footer {
   margin-top: -100px;
   padding-top: 207px;
@@ -496,19 +638,10 @@ body {
 }
 
 @media (max-width: 400px) {
-  .section-header #navbar-utama .form-inline {
-    display: none;
-  }
-  .section-header #navbar-second {
-    border: none;
-  }
-  .section-header #navbar-second .collapse ul li {
-    border-left: none;
-  }
-  .section-header .btn-login {
+  .btn-login {
     width: 100%;
   }
-  .section-header .btn-buat-tiket {
+  .btn-buat-tiket {
     position: static;
   }
 }

@@ -3,106 +3,148 @@ body {
    font-size: 14px;
 }
 
+// awal header
+#header-web {
+   /* position: relative; */
+   position: fixed;
+   background: #fff;
+   box-shadow: 0 1px 4px 2px rgba(0, 0, 0, .15);
+   border-top: 1px solid #eee;
+   top: 0;
+   left: 0;
+   right: 0;
+   z-index: 3;
+   padding-top: 10px;
 
-.section-header {
-   background-color: #fff;
-
-   nav {
-      border-bottom: 1px solid #eeeeee;
-
-      .container {
-         width: 90%;
+   .navbar-brand {
+      img {
+         height: 61.37px;
+         width: 200px;
       }
-   }
-
-   #navbar-utama {
-      padding: 20px 20px;
-
-      .form-inline {
-         width: 460px;
-
-
-         input {
-            border: 1px solid #E0E0E0;
-            border-radius: 3px;
-            box-sizing: border-box;
-            box-shadow: 0px 1px 4px 1px rgba($color: #000000, $alpha: 0.1);
-
-            font-size: 14px;
-            width: 100%;
-            padding: 20px 20px;
-
-         }
-      }
-   }
-
-
-   #navbar-second {
-      position: relative;
-      box-shadow: 0px 1px 4px 2px rgba(0, 0, 0, 0.15);
-
-      .navbar-nav {
-
-         .nav-item {
-            padding: 7px 7px;
-         }
-
-         a {
-            font-weight: 700;
-            color: #413F3F;
-            font-size: 15px;
-         }
-
-         .badge-purple {
-            background-color: #7014A9;
-            color: #fff;
-            margin-left: 5px;
-         }
-
-         img {
-            width: 20px;
-            height: 20px;
-            margin-right: 6px;
-         }
-
-         .dropdown {
-            .nav-link {
-               color: #F05A86;
-            }
-         }
-
-      }
-   }
-
-   img {
-      width: 182px;
-      height: 39px;
-   }
-
-
-   .btn-login {
-      color: #CD7BFF;
-      font-weight: 700;
-      font-size: 16px;
-
-      background-color: rgba(112, 20, 169, 0.15);
-   }
-
-   .btn-buat-tiket {
-      background-color: #7014A9;
-      color: #fff;
-      font-weight: 700;
-      font-size: 16px;
-      border-radius: 0;
-
-      position: absolute;
-      left: 78%;
-      right: 0;
-      top: 0;
-      bottom: 0;
    }
 }
 
+#form-search {
+
+   input {
+      width: 100%;
+      box-shadow: 0 1px 4px 1px rgba(0, 0, 0, .1);
+      border: solid 1px #eee;
+      border-radius: 3px;
+      padding: 13px 10px 13px 40px;
+      transition: border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+      outline: none;
+   }
+
+   input[type='text']:focus,
+   .clickdform textarea:focus,
+   .clickdform select:focus {
+      border: 2px solid #bc67f0 !important;
+      background: none !important;
+   }
+
+   .input-icon {
+      position: absolute;
+      left: 5px;
+      top: 0;
+      bottom: 0;
+      margin: auto 5px;
+      z-index: 5;
+   }
+
+   .input-with-icon {
+      position: relative;
+      margin-top: 15px;
+   }
+}
+
+.btn-user,
+.btn-login {
+   color: white;
+   background-color: #7014A9;
+   border-radius: 0;
+   padding-top: 14px;
+   padding-bottom: 14px;
+
+   &:hover {
+      color: white;
+      background-color: #3d055f;
+   }
+}
+
+#menu-utama {
+   margin-top: 25px;
+   border-top: 1px solid #eee;
+   padding-top: 0;
+   padding-bottom: 0;
+
+   .nav-link {
+      border-left: 1px solid #eee;
+      padding: 13px 30px;
+      transition: background-color .25s ease;
+
+      &:hover {
+         background-color: rgba(112, 20, 169, .15);
+      }
+   }
+
+   .nav-item.vt {
+      border-right: 1px solid #eee;
+   }
+
+   img.nav-icon {
+      height: 23.842500686645508px;
+      width: 23.999950408935547px;
+      left: 0px;
+      top: 0.07867431640625px;
+      border-radius: 0px;
+   }
+
+   .nav-icon {
+      margin-right: 10px;
+   }
+
+   .nav-link.btn-gmitra {
+      color: white;
+      background-color: #7014A9;
+      border: 1px solid #7014A9;
+
+      &:hover {
+         color: white;
+         background-color: #3d055f;
+      }
+   }
+}
+
+.badge-primary {
+   color: #fff;
+   background-color: #7014A9;
+}
+
+img,
+svg {
+   vertical-align: middle;
+}
+
+img {
+   border-style: none;
+}
+
+// akhir header
+
+// Awal utility
+.card {
+   padding: 32px;
+   margin: 0;
+
+   background: #FFFFFF;
+   border: 1px solid rgba(175, 175, 175, 0.5);
+   box-sizing: border-box;
+   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.08);
+   border-radius: 5px;
+}
+
+//Akhir utility 
 
 .section-gallery-info {
    padding-top: 215px;
@@ -370,6 +412,118 @@ body {
 
 }
 
+// Awal PROFILE
+#ubah-profil {
+   margin-top: 15%;
+
+   margin-bottom: 50vh;
+
+   #side-menu {
+
+      .side-menu {
+         padding: 30px;
+      }
+
+      .profil-user {
+         img {
+            width: 64px;
+            height: 64px;
+            filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+         }
+
+         h5 {
+            font-weight: 600;
+            font-size: 16px;
+            line-height: 22px;
+         }
+
+         p {
+            font-weight: normal;
+            font-size: 14px;
+            line-height: 17px;
+
+            color: #AFAFAF;
+
+         }
+      }
+
+      .profil-menu {
+         ul {
+            li {
+               padding-top: 20px;
+            }
+         }
+
+         a {
+            text-decoration: none;
+            font-weight: 600;
+            font-size: 16px;
+            color: #595757;
+         }
+
+         img {
+            width: 24px;
+            height: 24px;
+
+            margin-right: 30px;
+            margin-left: 5px;
+         }
+      }
+   }
+
+   #main-menu {
+      h5 {
+         font-weight: bold;
+         font-size: 16px;
+         color: #F05E86;
+      }
+
+      form {
+         img {
+            width: 160px;
+            height: 160px;
+            display: block;
+            margin: auto;
+            filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+         }
+      }
+
+      .btn-upload {
+         background: #4E2E8A;
+         border-radius: 5px;
+
+         color: #FFFFFF;
+         font-weight: 600;
+         font-size: 16px;
+      }
+
+      .btn-simpan {
+         background: #4E2E8A;
+         border-radius: 5px;
+
+         font-weight: 600;
+         font-size: 16px;
+         color: #fff;
+      }
+
+      .btn-batal {
+         background: #F05E86;
+         border-radius: 5px;
+
+         font-weight: 600;
+         font-size: 16px;
+         color: #fff;
+      }
+
+      .info-daftar {
+         font-size: 14px;
+         color: rgba(0, 0, 0, 0.5);
+      }
+
+   }
+}
+
+// Awal FOOTER
 .section-footer {
    margin-top: -100px;
    padding-top: 207px;
@@ -469,34 +623,12 @@ body {
 $breakpoint: 400px;
 
 @media(max-width : $breakpoint) {
-   .section-header {
 
-      #navbar-utama {
-         .form-inline {
-            display: none;
-         }
-      }
+   .btn-login {
+      width: 100%;
+   }
 
-      #navbar-second {
-         border: none;
-
-         .collapse {
-            ul {
-               li {
-                  border-left: none;
-               }
-            }
-
-         }
-
-      }
-
-      .btn-login {
-         width: 100%;
-      }
-
-      .btn-buat-tiket {
-         position: static;
-      }
+   .btn-buat-tiket {
+      position: static;
    }
 }

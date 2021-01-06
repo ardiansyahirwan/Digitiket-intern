@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Document</title>
+   <link
+      href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap"
+      rel="stylesheet">
+
+   <!-- Bootstrap CSS -->
+   <link rel="stylesheet" href="frontend/library/bootstrap/css/bootstrap.min.css">
+
+   <!-- Fontawesome CSS-->
+   <link rel="stylesheet" href="frontend/library/fontawesome/css/all.min.css">
+
+   <!-- Slick CSS & Theme-->
+   <link rel="stylesheet" href="frontend/library/slick/slick.css">
+   <link rel="stylesheet" href="frontend/library/slick/slick-theme.css">
+
+   <!-- Main CSS -->
+   <link rel="stylesheet" href="frontend/css/main.css">
+</head>
+<body>
+   <header id="header-web">
+      <!-- navbar -->
+      <nav class="navbar navbar-expand-lg navbar-light bg-white">
+        <div class="container">
+        <a class="navbar-brand" href="#">
+          <img src="frontend/images/Icon/logo-digitiket 1.png" alt="" class="brand-digitiket">
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+          aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <form id="form-search" method="#" class="col-lg-7 ml-lg-5 mr-lg-auto px-0 px-lg-2">
+            <div class="input-with-icon">
+              <img class="input-icon" src="{{asset('public/asset/img/icon-search.svg')}}" alt="">
+              <input name="keyword" load-key="" type="text" autocomplete="off"
+                placeholder="Temukan Event, Wahana Wisata , Virtual Tour, Lain-lain.">
+              <ul class="dropdown-menu">
+                <li class="result-template d-none">
+                  <a class="event-list-link" href="#">
+                    <div class="event-list">
+                      <div class="event-list-title">Event Title</div>
+                      <div class="event-list-address">Event Address</div>
+                    </div>
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </form>
+          <!-- <a href="#" class="btn btn-login"> <i class="fa fa-sign-in mr-2"></i> Login</a> -->
+          <div class="dropdown">
+            <button class="btn btn-user dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Hai Angelina
+            </button>
+            <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+              <a class="dropdown-item" href="#">Action</a>
+              <a class="dropdown-item" href="#">Another action</a>
+              <a class="dropdown-item" href="#">Something else here</a>
+            </div>
+          </div>
+        </div>
+        </div>
+      </nav>
+      <!-- akhir navbar -->
+      <!-- menu utama -->
+      <nav id="menu-utama" class="navbar navbar-expand-lg navbar-light bg-transparent">
+        <div class="container d-flex justify-content-between">
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav mr-auto">
+              <li class="nav-item">
+                <a class="nav-link" href="#">
+                  <img class="nav-icon" src="frontend/images/Icon/ic_attraction_2.png" alt="">Attraction
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">
+                  <img class="nav-icon" src="frontend/images/Icon/ic_event_2.png" alt="">Event
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">
+                  <img class="nav-icon" src="frontend/images/Icon/ic_tour.png" alt="Virtual Tour Indonesia">Tour
+                </a>
+              </li> 
+              <li class="nav-item vt">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button">
+                  <img class="nav-icon" src="frontend/images/Icon/ic_virtual_tour.svg" alt="Virtual Tour Indonesia">Virtual Tour
+                </a>
+              </li>
+            </ul>
+            <ul class="navbar-nav ml-auto">
+              <li class="nav-item">
+                <a href="#" class="nav-link btn-gmitra">
+                    <big><span class="ion-ios-color-filter-outline nav-link-icon"></span></big>
+                  Gabung Mitra
+                </a>
+              </li>
+              <!-- <li class="nav-item d-lg-none">
+                <a class="nav-link text-left bg-brand-2" href="/auth/login?fallback=%2F">
+                  <i class="nav-link-icon ion-log-in"></i>Login </a>
+              </li> -->
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <!-- akhir menu utama -->
+    </header>
+    <!-- akhir header -->
+
+    <main id="ubah-profil">
+      <div class="container">
+        <div class="row">
+          <div class="col-3">
+            <section id="side-menu">
+              <div class="card side-menu">
+                  <div class="profil-user">
+                    <img src="frontend/images/ubah-profile/Photo-profil.png" alt="" class="float-left mr-2">
+                    <h5>David Al</h5>
+                    <p>aldavid@gmail.com</p>
+                  </div>
+                  <div class="profil-menu">
+                    <ul class="list-unstyled">
+                     <a href=""> <li> <img src="frontend/images/Icon/user 1.png"> Ubah Profil</li> </a>
+                     <a href=""> <li><img src="frontend/images/Icon/lock 1.png">Ubah Password</li> </a>
+                     <a href=""> <li><img src="frontend/images/Icon/shopping-bag 1.png">Pembelian</li> </a>
+                     <a href=""> <li><img src="frontend/images/Icon/dollar-sign 1.png">Pembayaran</li> </a>
+                    </ul>
+                  </div>
+                </div>
+            </section>
+          </div>
+          <div class="col-9">
+            <section id="main-menu">
+              <div class="card">
+                <form action="" method="">
+                <div class="row">
+                  <div class="col-5">
+                    <div class="card text-center">
+                      <h5>Foto Profil</h5>                     
+                        <img src="frontend/images/ubah-profile/Ellipse-11.png" class="mt-4">
+                        <div class="custom-file">
+                          <input type="file" class="custom-file-input" id="customFile">
+                          <label class="custom-file-label mt-2" for="customFile">Upload Foto</label>
+                        </div>
+                    </div>
+
+                    <div class="row info-daftar">
+                      <div class="col-12 d-flex p-3">
+                        <p>Tanggal Pendaftaran</p>
+                        <p class="ml-auto">12-06-2020</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-7">
+                    <h5>Ubah Data Diri</h5>
+                    <div class="mt-4">
+                      <div class="form-group">
+                        <label for="namaDepan">Nama Depan</label>
+                        <input type="text" class="form-control" id="namaDepan">
+                      </div>
+                      <div class="form-group">
+                        <label for="namaBelakang">Nama Belakang</label>
+                        <input type="text" class="form-control" id="namaBelakang">
+                      </div>
+                      <div class="form-group">
+                        <label for="tanggalLahir">Tanggal Lahir</label>
+                        <input type="date" class="form-control" id="tanggalLahir">
+                      </div>
+                      <div class="form-group">
+                        <label for="jenisKelamin">Jenis Kelamin</label>
+                        <input class="form-control" type="text" placeholder="Laki Laki" readonly>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="row">
+                  <div class="col-12">
+                    <h5>Ubah Kontak</h5>
+                    <div class="form-group">
+                      <label for="Email">Email</label>
+                      <input class="form-control" type="text" placeholder="aldavid@gmail.com" readonly>
+                    </div>
+                    <div class="form-group">
+                      <label for="telepon">Nomor Handphone</label>
+                      <input type="text" class="form-control" id="telepon">
+                    </div>
+                  </div>
+                </div>
+
+                <div class="row mt-3">
+                  <div class="col-12">
+                    <div class="btn btn-batal px-4 py-2 mr-3" type="reset">Batal</div>
+                    <div class="btn btn-simpan px-4 py-2" type="submit">Simpan</div>
+                  </div>
+                </div>
+                </form>
+              </div>
+            </section>
+          </div>
+        </div>
+      </div>
+    </main>
+
+
+    <script src="frontend/library/jquery/jquery.min.js"></script>
+    <script src="frontend/library/bootstrap/js/bootstrap.min.js"></script>
+    <script src="frontend/library/slick/slick.min.js"></script>
+    <script src="frontend/script/main.js"></script>
+</body>
+</html>
